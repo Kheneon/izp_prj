@@ -122,3 +122,10 @@ void codomain (char *str)
     free(completed_string);
     printf("[DEBUG] -- end of codomain --\n");   
 }
+
+int main ()
+{
+  node_t test = test->deserialized_value(x); //x si number of line
+  codomain(test->value);
+  return 0;
+}
